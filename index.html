@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://use.fontawesome.com/3362bd3645.js"></script>
+    <script src="https://kit.fontawesome.com/dfcd03b973.js" crossorigin="anonymous"></script>
+    
+
+
+    <style>
+      
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family: poppins, sans-serif;  
+  margin: 0px;
+  
+  
+}
+
+#header {
+    background: linear-gradient(270deg, #7b86e8, #f68cff, #ffde32);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+
+.container {
+    font-family:'Roboto';
+    background: rgb(123,134,232);
+  background: linear-gradient(164deg, rgba(123,134,232,1) 0%, rgba(246,140,255,1) 52%, rgba(255,222,50,1) 100%);  
+
+  color: #1e1e1e;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+    background-color: #63c6f0;
+}
+.second div {
+    background-color: #f1617d;
+}
+.third div {
+  background-color: #fffca1;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+#main-nav {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  background: rgb(0 0 0);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-family: 'Roboto';
+    margin-left: 25px;
+}
+ 
+
+
+nav a:hover {
+  text-decoration: none;
+  --_p: 100%;
+  --_s: .3s;
+  box-shadow: 5px 5px #3262ff,
+    -5px -5px #fff672;
+    text-shadow: 3px 0px #ff3232,
+    -3px 0px #ff6ef8;
+    border-radius: 15px;
+  
+}
+
+#main-nav.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.navbarOffsetMargin {
+  padding-top: 45px;
+}
+
+ 
+.section {
+    min-height: 100vh;
+}
+
+
+section#hakkimda {
+  background: linear-gradient(270deg, #32abff, #7bd3e8, #32abff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+  
+}
+
+section#egitim {
+  background: linear-gradient(270deg, #ff3232, #e87ba5, #ff3232);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+  
+}
+
+section#iletisim {
+  background: linear-gradient(270deg, #85ffbd, #fffb7d, #85ffbd);
+    background-size: 600% 600%;
+    
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+  
+}
+
+article {
+  width: 90%;
+  height: 100vh;
+  padding: 20px;
+  margin: 0px auto;
+  text-align: -webkit-center;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+a{
+    font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+#sosyal{
+    font-size: 4.5em;
+  text-align: center;
+  color: black;
+}
+#sosyal-li{
+    justify-self: center;
+    list-style: none;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section{
+    flex-direction: column;
+    text-align: center;
+  }
+  .animation{
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section{
+    flex-direction: column;
+    text-align: center;
+  }
+  .animation{
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  #hakkimda article div{
+    width: 300px;
+  height: 300px;
+  display: flex;
+  }
+}
+
+
+ul{
+    display: grid;
+    padding: 0;
+}
+li{
+    justify-self: center;
+}
+
+main p {
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 3px rgba(255,255,255,.3);
+}
+
+
+.hover-3 {
+  --b: 0.1em;
+    --c: #000000;
+    color: #fff0;
+    
+    background: linear-gradient(#ffffff 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%, linear-gradient(#ffffff 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover-3:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+
+h3 {
+  font-family: system-ui, sans-serif;
+  font-size: 4rem;
+  margin:0 auto;
+  cursor: pointer;
+  padding: 0 .1em;
+}
+button{
+    font-weight: 100;
+    background: none;
+    font-size: 22PX;
+    width: 150px;
+    height:70px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+.btn1 a{
+  background: rgb(0 0 0);
+   
+    text-decoration: none;
+    color: white;
+    display: contents;
+    font-family:'Roboto';
+}
+.butn1{
+    color: white;
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 100px;
+    
+}
+.butn1:hover{
+    box-shadow: 5px 5px #ff3232,
+    -5px -5px #e87ba5;
+    text-shadow: 3px 0px #ff3232,
+    -3px 0px #e87ba5;
+    border-radius: 15px;}
+    span{
+      justify-self: center;
+    }
+    #iletisimul{
+      display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    align-items: center;
+}
+#hakkimda article .responsive{
+  width: 26%;
+    display: flex;
+    height: 48%;
+    justify-content: center;
+}
+
+
+
+    
+    </style>
+</head>
+<body>
+    
+
+    <main class="container" id="header">
+        <p>Merhaba👋ben</p>
+        <section class="animation">
+          <div class="first"><div> <ins> Emre Mutlu</ins></div></div>
+          <div class="second"><div><i>EMRE MUTLU</i></div></div>
+          <div class="third"><div> <del> EMRE MUTLU</del></div>
+        </section>
+      </main>
+      <nav id="main-nav">
+        <a href="#header">Başlık</a>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#egitim">Eğitim</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <section class="section" id="hakkimda">
+        
+        <article>
+          <h1>HAKKIMDA</h1>
+          <p>25 yaşındayım 1 ay öncesinde full stack devaloper olmak için yola çıktım !</p>
+          <p>Gazi Üniversitesi Uluslararası İlişkiler mezunuyum</p>
+          <p>Aktif bir şekilde Misafir İlişkileri asistanı olarak çalışıyorum</p>
+          <p>İleri seviye İngilizce/Almanca/Rusça konuşabiliyorum</p>
+          <p>Antalya' da yaşıyorum</p>
+          
+          <div class="responsive"><img src="./hakkımdafoto-removebg.png" alt="foto"></div>
+          
+        </article>
+        
+      </section>
+      <section class="section" id="egitim">
+        <article>
+          <h1>EĞİTİM</h1> 
+          <ul><P> FRONT END</P>
+            <p><li>Html 5 - Ömer Ocak (NEOS YAZILIM)</li></p>
+            <p><li>Css - Ömer Ocak (NEOS YAZILIM)</li></p>
+            <p><li>Javascript - Ömer Ocak (NEOS YAZILIM)</li></p>
+            <p><li>JQerry - Ömer Ocak (NEOS YAZILIM</li></p>
+            <span class="btn1">
+              <button class="butn1"><a target="_blank" href="https://neosyazilim.com/">NEOS YAZILIM</a></button>
+          </span>
+          </ul>
+        </article>
+      </section>
+      <section class="section" id="iletisim">
+        <article>
+          <h1>İLETİŞİM</h1> 
+          <ul id="iletisimul">
+          <li id="sosyal-li" ><a target="_blank" href="https://www.instagram.com/emremutlu.jpg/" id="sosyal" ><i class="fa-brands fa-instagram"></i></a></li>
+          <li id="sosyal-li" ><a target="_blank" href="https://www.facebook.com/yunusagamagato.mutlu/" id="sosyal" ><i class="fa-brands fa-facebook"></i></a></li>
+          <li id="sosyal-li" ><a target="_blank" href="https://github.com/laloyke" id="sosyal" ><i class="fa-brands fa-github"></i></a></li>
+          <li id="sosyal-li" ><a target="_blank" href="#" id="sosyal" ><i class="fa-brands fa-linkedin"></i></a></li>
+          <li id="sosyal-li" ><a target="_blank" href="tel:+905396938083" id="sosyal" ><i class="fa-solid fa-phone"></i></a></li>
+          <li id="sosyal-li" ><a target="_blank" href="https://laloyke1@gmail.com" id="sosyal" ><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        </article>
+      </section>
+      <script src="./script.js"></script>   
+</body>
+
+</html>
